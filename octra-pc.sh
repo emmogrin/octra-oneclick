@@ -26,7 +26,7 @@ fi
 
 # Step 1: Install dependencies
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl git build-essential ufw
+sudo apt install -y curl git build-essential ufw unzip
 
 # Install Bun
 curl -fsSL https://bun.sh/install | bash
