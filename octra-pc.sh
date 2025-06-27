@@ -11,7 +11,7 @@ cat << "EOF"
    ║             SAINT KHEN               ║
    ║          Follow @admirkhen           ║
    ╚═══════════════════════════════════════╝
-         The Saint blesses your efforts
+         The Saint blesses your efforts🙂
 EOF
 echo -e "${NC}"
 
