@@ -17,21 +17,27 @@ echo -e "${NC}"
 
 echo -e "${GREEN}🌐 Octra Wallet Generator Installer — PC/VPS Edition${NC}"
 
+# ✅ Check internet first
+ping -c 2 github.com >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+  echo "❌ Network problem: Cannot reach github.com — check your internet or DNS settings."
+  exit 1
+fi
+
 # Step 1: Install dependencies
-sudo apt install -y sudo
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl git build-essential
+sudo apt install -y curl git build-essential ufw
 
 # Install Bun
 curl -fsSL https://bun.sh/install | bash
-source /root/.bashrc || export PATH="$HOME/.bun/bin:$PATH"
+source $HOME/.bashrc || export PATH="$HOME/.bun/bin:$PATH"
 
 # Step 2: Clone the wallet-gen repo
 git clone https://github.com/octra-labs/wallet-gen.git
 cd wallet-gen
 
 # Install project dependencies
-bun install || source /root/.bashrc
+bun install || source $HOME/.bashrc
 
 # Fallback: Add tweetnacl manually if needed
 bun add tweetnacl
