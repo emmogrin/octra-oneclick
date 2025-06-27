@@ -23,14 +23,16 @@ apt install -y curl git build-essential
 
 # Install Bun
 curl -fsSL https://bun.sh/install | bash
-source ~/.bashrc || export PATH="$HOME/.bun/bin:$PATH"
+
+# Make sure Bun is in PATH for THIS script run
+export PATH="$HOME/.bun/bin:$PATH"
 
 # Step 2: Clone the wallet-gen repo
 git clone https://github.com/octra-labs/wallet-gen.git
 cd wallet-gen
 
 # Install project dependencies
-bun install || source ~/.bashrc
+bun install
 
 # Fallback: Add tweetnacl manually if needed
 bun add tweetnacl
