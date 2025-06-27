@@ -41,7 +41,7 @@ Scroll up and copy the first 4 details — these are the most important (better 
 🫂 Join the Octra community
 
 Get help, share progress, and claim your roles in the official Octra Discord:
-👉 Join Discord
+👉 Join Discord https://discord.gg/octra
 
 
 ---
