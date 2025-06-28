@@ -19,23 +19,27 @@ echo -e "${GREEN}📱 Octra Wallet Generator Installer — Termux Edition${NC}"
 
 # Step 1: Install dependencies
 apt update && apt upgrade -y
-apt install -y curl git build-essential
+apt install -y curl git build-essential unzip nodejs
 
 # Install Bun
 curl -fsSL https://bun.sh/install | bash
-
-# Make sure Bun is in PATH for THIS script run
 export PATH="$HOME/.bun/bin:$PATH"
 
-# Step 2: Clone the wallet-gen repo
+# Step 2: Clone the repo
 git clone https://github.com/octra-labs/wallet-gen.git
 cd wallet-gen
 
-# Install project dependencies
+# Install with Bun
 bun install
 
-# Fallback: Add tweetnacl manually if needed
+# Fallback: add manually
 bun add tweetnacl
 
-# Step 3: Start the wallet generator
+# If Bun fails, fallback to npm for Termux
+if [ ! -d "node_modules/tweetnacl" ]; then
+  echo "🔄 Bun failed — falling back to npm..."
+  npm install
+fi
+
+# Run
 bun wallet_generator.ts
