@@ -2,7 +2,7 @@
 
 # ⚡️ Octra Testnet — Weekly Task
 
-# NOTE(ANDROID USERS ONLY PC USERS SHOULD PROCEED) 
+# NOTE(ANDROID USERS ONLY, PC Users ignore and move to next step ) 
 New Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
 
 if you are not New as a phone guy then  just enter and proceed with the code:
