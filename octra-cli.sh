@@ -33,25 +33,28 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# 5️⃣ Prompt for private key and create wallet.json
-echo -e "${GREEN}🔑 Please paste your private key (Base64, no spaces):${NC}"
+# 5️⃣ Prompt for private key & address, then write wallet.json
+echo -e "${GREEN}🔑 Paste your private key (Base64, no spaces):${NC}"
 read -r my_priv_key
+
+echo -e "${GREEN}📬 Paste your Octra address (starts with oct...):${NC}"
+read -r my_addr
 
 cat <<EOF > wallet.json
 {
   "priv": "$my_priv_key",
-  "addr": "oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv",
+  "addr": "$my_addr",
   "rpc": "https://octra.network"
 }
 EOF
 
-echo -e "${GREEN}✅ wallet.json created with your private key.${NC}"
+echo -e "${GREEN}✅ wallet.json created with your private key & address.${NC}"
 
 echo -e ""
 echo -e "${GREEN}✅ When ready, activate venv and launch CLI:${NC}"
+echo -e "cd octra_pre_client"
 echo -e "source venv/bin/activate"
 echo -e "python3 cli.py"
 echo -e ""
 
-echo -e "${GREEN}📤 Send your test transactions to: oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv${NC}"
-echo -e "📌 Use Octra Explorer for more addresses. Share your feedback in Discord: https://discord.gg/octra"
+echo -e "${GREEN}📌 Use Octra Explorer for more addresses & share feedback in Discord: https://discord.gg/octra${NC}"
