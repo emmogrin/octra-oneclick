@@ -42,7 +42,12 @@ Auto-create your wallet.json
 Get your CLI ready to launch
 
 
-Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
+New Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
+
+if you are not New as a phone guy then  just enter and proceed with the code:
+```
+proot-distro login ubuntu 
+```
 
 ---
 
