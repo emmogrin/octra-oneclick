@@ -25,6 +25,12 @@ Run the CLI installer:
 chmod +x octra-cli.sh
 ./octra-cli.sh
 ```
+```
+cd octra_pre_client
+source venv/bin/activate
+python3 cli.py
+```
+
 This will:
 
 Install Python & requirements
