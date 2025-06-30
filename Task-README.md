@@ -36,7 +36,7 @@ Auto-create your wallet.json
 Get your CLI ready to launch
 
 
-phone users are to login ubuntu using this guide before starting TERMUX-README.md
+Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
 
 ---
 
