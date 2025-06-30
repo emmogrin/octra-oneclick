@@ -74,10 +74,10 @@ Example address to send to (test it!):
 ```
 oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv
 ```
-You can use the Octra Explorer to find more addresses.
-
-[Screenshot-20250630-181339-Termux.jpg](https://postimg.cc/3dvTqX2K)
+You can use the Octra Explorer to find more 
 ---
+
+[![Screenshot-20250630-181339-Termux.jpg](https://i.postimg.cc/rFhwKgmt/Screenshot-20250630-181339-Termux.jpg)](https://postimg.cc/3dvTqX2K)
 
 ✅ 3️⃣ Join & Discuss
 
