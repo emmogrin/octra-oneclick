@@ -2,6 +2,14 @@
 
 # ⚡️ Octra Testnet — Weekly Task
 
+# NOTE(ANDROID USERS ONLY PC USERS SHOULD PROCEED) 
+New Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
+
+if you are not New as a phone guy then  just enter and proceed with the code:
+```
+proot-distro login ubuntu 
+```
+
 **The Saint blesses your efforts. 🗝️✨**
 
 ---
@@ -20,7 +28,7 @@ Already cloned before? Update (if you haven't skipped):
 cd octra-oneclick
 git pull
 ```
-Run the CLI installer:
+# Run the CLI installer Make sure its the (B64 private key):
 ```
 chmod +x octra-cli.sh
 ./octra-cli.sh
@@ -41,13 +49,6 @@ Auto-create your wallet.json
 
 Get your CLI ready to launch
 
-
-New Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
-
-if you are not New as a phone guy then  just enter and proceed with the code:
-```
-proot-distro login ubuntu 
-```
 
 ---
 
