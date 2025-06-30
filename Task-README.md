@@ -2,7 +2,7 @@
 
 # ⚡️ Octra Testnet — Weekly Task
 
-# NOTE(ANDROID USERS ONLY, PC Users ignore and move to next step ) 
+ **NOTE(ANDROID USERS ONLY, PC Users ignore and move to next step ) 
 New Phone users are to login ubuntu using this guide before starting [📱 TERMUX-README](https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md)
 
 if you are not New as a phone guy then  just enter and proceed with the code:
@@ -45,6 +45,8 @@ Install Python & requirements
 
 Prompt you for your private key
 
+Prompt you for wallet address (oct)
+
 Auto-create your wallet.json
 
 Get your CLI ready to launch
@@ -59,9 +61,11 @@ After the CLI opens, you’ll see something like this:
 ✅ 2️⃣ Send Transactions
 1. Type 1 and press Enter
 
-2. Paste the recipient Octra address
+2. Paste the recipient Octra address (press enter)
 
-3. Enter the amount to send
+3. Enter the amount to send (press enter)
+
+4. type y to confirm you really want to send. 
 
 Example address to send to (test it!):
 ```
