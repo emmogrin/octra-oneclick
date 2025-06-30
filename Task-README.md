@@ -36,19 +36,27 @@ Auto-create your wallet.json
 Get your CLI ready to launch
 
 
+phone users are to login ubuntu using this guide before starting anything.https://github.com/emmogrin/octra-oneclick/blob/main/TERMUX-README.md
 
 ---
 
-✅ 2️⃣ Send Transactions
+After the CLI opens, you’ll see something like this:
+[![IMG-20250630-WA0013.jpg](https://i.postimg.cc/mD3bQHf0/IMG-20250630-WA0013.jpg)](https://postimg.cc/G82wR9pQ)
 
-Use the CLI to send test transactions to other wallets.
-Test sending to Saint’s address:
+
+✅ 2️⃣ Send Transactions
+1. Type 1 and press Enter
+
+2. Paste the recipient Octra address
+
+3. Enter the amount to send
+
+Example address to send to (test it!):
 ```
 oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv
 ```
-You can also use the Octra Explorer to find more addresses.
-
-
+You can use the Octra Explorer to find more addresses.
+Also get faucet here if you have none: faucet.octra.network
 ---
 
 ✅ 3️⃣ Join & Discuss
