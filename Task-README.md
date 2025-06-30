@@ -18,16 +18,19 @@ proot-distro login ubuntu
 
 ### ✅ 1️⃣ Install the Octra Client
 
-**New user? Clone fresh:**  
-```bash
-git clone https://github.com/emmogrin/octra-oneclick.git
-cd octra-oneclick
-```
 Already cloned before? Update (if you haven't skipped):
 ```
 cd octra-oneclick
 git pull
 ```
+
+
+**New user? Clone fresh:**  
+```bash
+git clone https://github.com/emmogrin/octra-oneclick.git
+cd octra-oneclick
+```
+
 # Run the CLI installer Make sure its the (B64 private key):
 ```
 chmod +x octra-cli.sh
