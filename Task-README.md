@@ -76,6 +76,7 @@ oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv
 ```
 You can use the Octra Explorer to find more addresses.
 
+[Screenshot-20250630-181339-Termux.jpg](https://postimg.cc/3dvTqX2K)
 ---
 
 ✅ 3️⃣ Join & Discuss
