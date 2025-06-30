@@ -62,8 +62,9 @@ You can use the Octra Explorer to find more addresses.
 ✅ 3️⃣ Join & Discuss
 
 Get help, share your progress & secure early roles:
-👉 Join the Discord discord.gg/octra
-Also get faucet here if you have none: faucet.octra.network
+👉 Join the [ Discord](discord.gg/octra)
+
+Also get faucet here if you have none: [Faucet](faucet.octra.network)
 Keep notifications ON — the next task drops soon!
 
 
