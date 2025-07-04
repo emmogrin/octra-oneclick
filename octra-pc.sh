@@ -48,4 +48,4 @@ bun add tweetnacl
 sudo ufw allow 8888
 
 # Start the wallet generator
-bun wallet_generator.ts
+bun  wallet-generator.sh
