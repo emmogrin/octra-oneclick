@@ -76,10 +76,13 @@ oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv
 ```
 You can use the Octra Explorer to find more 
 ---
-Note: the steps are same for the new task.
-all you need to do is to Encrypt some balance first.
-
 [![Screenshot-20250630-181339-Termux.jpg](https://i.postimg.cc/rFhwKgmt/Screenshot-20250630-181339-Termux.jpg)](https://postimg.cc/3dvTqX2K)
+
+Note: the steps are same for the new task.
+all you need to do is to Encrypt some balance first, complete private transfers and all.
+
+
+[![Screenshot-20250709-231328-Termux.jpg](https://i.postimg.cc/9MSJMVyQ/Screenshot-20250709-231328-Termux.jpg)](https://postimg.cc/dk28HbWb)
 
 ✅ 3️⃣ Join & Discuss
 
