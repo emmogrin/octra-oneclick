@@ -47,43 +47,12 @@ apt update && apt upgrade -y
 apt install -y curl git build-essential
 ```
 finally steps.😁 
-Install bun and reload profile
 ```
-curl -fsSL https://bun.sh/install | bash
-source /root/.bashrc
+git clone https://github.com/emmogrin/octra-oneclick.git
+cd octra-oneclick
+chmod +x octra-termux.sh
+./octra-termux.sh
 ```
-Or manually add Bun to PATH (if needed):
-```
-export PATH="$HOME/.bun/bin:$PATH"
-```
-clone the wallet generator page
-```
-git clone https://github.com/octra-labs/wallet-gen.git
-cd wallet-gen
-```
-Install project requirements
-```
-bun install
-```
-If it says bun not found enter this
-```
-source /root/.bashrc”
-```
-If it complains about missing packages like tweetnacl, install manually:
-```
-bun add tweetnacl
-```
-Step 3 - Allow port in UFW
-```
-ufw allow 8888
-```
-Step 4 - start the wallet generator
-```
-./wallet-generator.sh
-
-```
----
-
 ✅ Access your wallet generator
 
 When it’s running, open your browser (chrome):
