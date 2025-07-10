@@ -53,6 +53,11 @@ cd octra-oneclick
 chmod +x octra-termux.sh
 ./octra-termux.sh
 ```
+```
+cd ~/wallet-gen
+./wallet-generator
+
+```
 ✅ Access your wallet generator
 
 When it’s running, open your browser (chrome):
