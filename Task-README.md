@@ -61,14 +61,17 @@ After the CLI opens, you’ll see something like this:
 [![IMG-20250710-092044-197.jpg](https://i.postimg.cc/VNJYQkNG/IMG-20250710-092044-197.jpg)](https://postimg.cc/VScyX1nn)
 
 
-✅ 2️⃣ Send Transactions
-1. Type 1 and press Enter
+---
 
-2. Paste the recipient Octra address (press enter)
+✅ 2️⃣ Send Transactions (Normal & Encrypted)
 
-3. Enter the amount to send (press enter)
+**💡 New FHE Task:**  
+To test the new Fully Homomorphic Encryption, you must **Encrypt some balance first**:
 
-4. type y to confirm you really want to send. 
+- Select option `4` → input amount → confirm.  
+- Then select option `6` → input recipient, amount → confirm → done!
+
+Use normal `1` for regular transfers, `6` for private encrypted ones.
 
 Example address to send to (test it!):
 ```
