@@ -58,7 +58,7 @@ Get your CLI ready to launch
 ---
 
 After the CLI opens, you’ll see something like this:
-[![IMG-20250630-WA0013.jpg](https://i.postimg.cc/mD3bQHf0/IMG-20250630-WA0013.jpg)](https://postimg.cc/G82wR9pQ)
+[![IMG-20250710-092044-197.jpg](https://i.postimg.cc/VNJYQkNG/IMG-20250710-092044-197.jpg)](https://postimg.cc/VScyX1nn)
 
 
 ✅ 2️⃣ Send Transactions
@@ -76,6 +76,8 @@ oct93iE4P8KgFNYGWf6pKgY1tYyhBriXi7a2yMrnGgZgkBv
 ```
 You can use the Octra Explorer to find more 
 ---
+Note: the steps are same for the new task.
+all you need to do is to Encrypt some balance first.
 
 [![Screenshot-20250630-181339-Termux.jpg](https://i.postimg.cc/rFhwKgmt/Screenshot-20250630-181339-Termux.jpg)](https://postimg.cc/3dvTqX2K)
 
