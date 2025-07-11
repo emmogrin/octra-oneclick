@@ -21,7 +21,7 @@ proot-distro login ubuntu
 Already cloned before? Update (if you haven't skipped):
 ```
 cd octra-oneclick
-git pull
+git reset --hard && git clean -fd && git pull
 ```
 
 
