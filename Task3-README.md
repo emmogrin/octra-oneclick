@@ -43,29 +43,22 @@ chmod +x octra-task3.sh
 
 You'll see an interface with 15 options. Here's what they do:
 
-No.	Function
+No = Function (just as in the image below)
 
-1	Greeting
-2	Contract info
-3	Claim 1 token
-4	Check token balance
-5	Dot product
-6	Vector magnitude
-7	Power
-8	Factorial
-9	Fibonacci
-10	GCD
-11	Prime check
-12	2x2 Matrix determinant
-13	Linear interpolation
-14	Modular exponentiation
-0	Exit
+[![Screenshot-20250727-233625-Termux.jpg](https://i.postimg.cc/wBB1KGwS/Screenshot-20250727-233625-Termux.jpg)](https://postimg.cc/tsLqW2Q5)
 
 
+
+## basically you are to:
+
+1) run ocs01 test contract and claim 1 test token
+
+2) test all functions of the math contract one by one
+
+3) discuss and ask for guidance in discord.gg/octra
 
 ---
 
-👤 Author
 
 Script by @admirkhen for Octra testnet.
 
