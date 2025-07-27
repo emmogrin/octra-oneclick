@@ -6,11 +6,24 @@ echo "   🐙 Octra OCS01 OneClick by @admirkhen 🛠️   "
 echo "──────────────────────────────────────────────"
 echo ""
 
+# Ask environment
+read -p "❓ Are you using [1] Termux (Phone) or [2] PC/VPS? Enter 1 or 2: " ENV
+
+if [ "$ENV" == "1" ]; then
+  SUDO=""
+elif [ "$ENV" == "2" ]; then
+  SUDO="sudo"
+else
+  echo "❌ Invalid option. Exiting."
+  exit 1
+fi
+
+echo ""
 echo "🔧 Updating system..."
-sudo apt update -y && sudo apt upgrade -y
+$SUDO apt update -y && $SUDO apt upgrade -y
 
 echo "📦 Installing dependencies..."
-sudo apt install -y \
+$SUDO apt install -y \
 htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev \
 tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential \
 pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev \
