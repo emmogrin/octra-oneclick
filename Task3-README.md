@@ -60,6 +60,6 @@ No = Function (just as in the image below)
 ---
 
 
-Script by @admirkhen for Octra testnet.
+Script by @admirkhen for Octra testnet.💙💙
 
 ---
