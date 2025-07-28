@@ -17,7 +17,12 @@ Before running the script, have the following:
 
 ## 🚀 How to Run
 
-### 🆕 First Time Clone
+Termux users(skip if on pc/vps)
+```
+proot-distro login ubuntu
+```
+
+### 🆕 First Time Clone (start here pc/vps)
 
 ```bash
 git clone https://github.com/emmogrin/octra-oneclick.git
